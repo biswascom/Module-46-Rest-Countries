@@ -1,0 +1,19 @@
+.h1 {
+    text-align: center;
+    color: green;
+}
+.countries {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.inside img {
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+}
+.inside {
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
